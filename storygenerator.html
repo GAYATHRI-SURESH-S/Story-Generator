@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Story Generator</title>
+    <h1>Random Story Generator</h1>
+    <h2>Quick and Short Story</h2>
+    <link rel="stylesheet" href="storystyle.css">
+    
+    
+</head>
+<body>
+    <div>
+        <label for = "fname">First Character</label>
+        <input id = "fname" type="text" >
+    </div>
+    
+    <div>
+        <p> Enter place for the plot.</p>
+        <label for = "Mumbai">Mumbai</label><input id = "Mumbai" type="radio" name = "place" value = "Mumbai" checked>
+        <label for = "Bangalore">Bangalore</label><input id = "Bangalore" type = "radio" name = "place" value="Bangalore">
+        <label for = "Delhi">Delhi</label><input id = "Delhi" type = "radio" name = "place" value="Delhi"><br>
+     </div><br>
+     
+     <div>
+         <label for = "character">Second Character</label><br>
+         <input id ="character" type = "text">
+     </div>
+     <div>
+         <p>Choose the ending..</p>
+         <label for = "happy">Happy</label>
+         <input id = "happy" type="radio" name = "ending" value="happy" checked><br>
+         <label for = "sad">Sad</label>
+         <input id = "sad" type="radio" name = "ending" value="sad">
+         
+     </div><br>
+     <br>
+     
+         
+         <button id = "submit" onclick = "result()" >Submit</button>
+     
+     
+     <script src = "story.js"></script>
+     <p class = "story"></p>
+    
+</body>
+</html>

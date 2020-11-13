@@ -1,0 +1,24 @@
+h1,h2{
+    color: blueviolet;
+    font-family: cursive;
+    font-size: x-large;
+    text-align: center;
+}
+body{
+    text-align: center;
+    color : rosybrown;
+    font-size: medium;
+    font-family : cursive;
+}
+
+#submit{
+    color: tomato;
+    font-size: medium;
+    padding : 15px 32px;
+    background-color: beige;
+    cursor: pointer;
+}
+ #submit:hover{
+     color:black;
+     background-color: coral;
+ }
